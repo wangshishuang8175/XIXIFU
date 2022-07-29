@@ -1,0 +1,257 @@
+{
+
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": ""
+		}
+	}, {
+		"path": "pages/classfiy/classfiy",
+		"style": {
+			"navigationBarTitleText": "全部分类",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/cart/cart",
+		"style": {
+			"navigationBarTitleText": "购物车",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/me/me",
+		"style": {
+			"navigationBarTitleText": "我的",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/hotsearch/hotsearch",
+		"style": {
+			"navigationBarTitleText": "热门搜索",
+			"enablePullDownRefresh": true,
+			"onReachBottomDistance": 150
+		}
+
+	}, {
+		"path": "pages/search/search",
+		"style": {
+			"navigationBarTitleText": "搜索",
+			"enablePullDownRefresh": false
+		}
+
+	},{
+		"path": "pages/welcome/welcome",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/wenxue/wenxue",
+		"style": {
+			// "navigationBarTitleText": "文学",
+			"enablePullDownRefresh": true,
+			"onReachBottomDistance": 50
+		}
+
+	}, {
+		"path": "pages/goods-detail/goods-detail",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}    ,{
+            "path" : "pages/code/code",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/need/need",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+                "onReachBottomDistance": 150
+            }
+            
+        }
+        ,{
+            "path" : "pages/Collect/Collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/integrals/integrals",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/coupons/coupons",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/indent/indent",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Aftermarket/Aftermarket",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/agreement/agreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/private/private",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+               "enablePullDownRefresh": true,
+               "onReachBottomDistance": 150
+            }
+            
+        }
+        ,{
+            "path" : "pages/ranklist/ranklist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/orderDetail/orderDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/createOrder/createOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/booksrank/booksrank",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+              "enablePullDownRefresh": true,
+              "onReachBottomDistance": 150
+            }
+            
+        }
+        ,{
+            "path" : "pages/add_address/add_address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#888",
+		"selectedColor": "#111",
+		"midButton":{
+					"text":"二维码",
+					"pagePath":"pages/code/code",
+					"iconPath":"static/code.png",
+					"selectedIconPath":"static/code.png"
+				},
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/shang.png",
+				"selectedIconPath": "static/shouye.png"
+			},
+			{
+				"pagePath": "pages/classfiy/classfiy",
+				"text": "分类",
+				"iconPath": "static/fen.png",
+				"selectedIconPath": "static/fenlei.png"
+			},
+			{
+				"pagePath": "pages/code/code",
+				"iconPath": "static/code.png",
+				"selectedIconPath": "static/code.png",
+				"text": "二维码"
+			},
+
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/gouwuche.png",
+				"selectedIconPath": "static/gouwuche.png"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的",
+				"iconPath": "static/31wode.png",
+				"selectedIconPath": "static/wode.png"
+			}
+		]
+	}
+}

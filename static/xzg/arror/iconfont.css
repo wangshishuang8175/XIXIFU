@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3470768 */
+   src:  url('iconfont.ttf?t=1655431864761') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-second:before {
+  content: "\e66b";
+}
+
+.icon-third:before {
+  content: "\e66c";
+}
+
+.icon-first:before {
+  content: "\e66d";
+}
+
+.icon-paixupaihang:before {
+  content: "\e654";
+}
+
